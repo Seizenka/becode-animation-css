@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bouton a {
+    display:block;
+    background-color:black;
+    border:5px solid white;
+    padding:12px;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    margin:0 auto;
+    transition-property: background-color; /* Active la transition sur background-color */
+    transition-duration: 1s;
+}
+
+.bouton a:hover {
+    background-color: white;
+}
+
+.bouton2 a {
+    display:block;
+    background-color:black;
+    border:5px solid white;
+    padding:12px;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    margin:0 auto;
+    margin-top:50px;
+    transition-property: background-color, width; /* Active la transition sur background-color */
+    transition-duration: 2s;
+}
+
+.bouton2 a:hover {
+ width: 80%;
+ background-color:white;
+}
+
+.bouton3 a {
+    display:block;
+    background-color:black;
+    border:5px solid white;
+    padding:12px;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    color:white;
+    text-decoration:none;
+    margin:0 auto;
+    margin-top:50px;
+    transition-property: background-color, width, transform; /* Active la transition sur background-color */
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+
+.bouton3 a:hover {
+    transform: translateX(150px);
+ background-color:white;
+}
